@@ -5,10 +5,15 @@
   <meta charset="utf-8">
   <title>Simon</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+	#starting{
+	margin-top:1%;
+	}
+  </style>
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
+  <h1 id="level-title">Press A Key to Start or click on Start Button</h1>
   <div class="container">
     <div class="row">
 
@@ -37,5 +42,7 @@
   <script src="game.js" charset="utf-8"></script>
   <!-- <input type="button" name="" value="START" onclick="startNow()"> -->
   <input type="button" class="restart" value="RESTART" onclick="window.location.reload()">
+  <br>
+  <input type="button" id="starting" class="restart" value="START" onclick="startNow()">
 </body>
 </html>
